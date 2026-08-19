@@ -29,7 +29,9 @@ riscv-gui-iss/
     └── main.cpp           # GLFW context manager and Dear ImGui layout loops
 
 #1 Clone the Repo
-git clone 
+
+git clone https://github.com/Fahad-Al-Maashani/riscv-gui-iss.git
+
 # 2. Clone or initialize your directory
 cd riscv-gui-iss
 
