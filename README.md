@@ -28,18 +28,20 @@ riscv-gui-iss/
     ├── cpu.cpp            # Execution loop, bitmask decoders, and disassembler logic
     └── main.cpp           # GLFW context manager and Dear ImGui layout loops
 
-# 1. Clone or initialize your directory
+#1 Clone the Repo
+git clone 
+# 2. Clone or initialize your directory
 cd riscv-gui-iss
 
-# 2. Create and enter the build directory
+# 3. Create and enter the build directory
 mkdir build && cd build
 
-# 3. Configure the project using CMake
+# 4. Configure the project using CMake
 cmake -DCMAKE_BUILD_TYPE=Release ..
 
-# 4. Compile all targets
+# 5. Compile all targets
 cmake --build . -j$(nproc)
 
-# 5. Launch the graphical simulator dashboard
+# 6. Launch the graphical simulator dashboard
 ./riscv_gui_sim
 
