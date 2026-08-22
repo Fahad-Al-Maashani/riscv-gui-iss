@@ -1,4 +1,4 @@
-# ⚡ RISC-V GUI Instruction Set Simulator (RV32IM)
+# ⚡ RISC-V GUI Instruction Set Simulator (RV32IM) Still under Work
 
 ![C++20](https://img.shields.io/badge/C%2B%2B-20-blue.svg?style=flat-square&logo=c%2B%2B)
 ![CMake](https://img.shields.io/badge/CMake-3.20%2B-green.svg?style=flat-square&logo=cmake)
